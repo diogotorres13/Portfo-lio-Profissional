@@ -6,7 +6,7 @@ O site foi desenvolvido como atividade da disciplina **Laboratório de Desenvolv
 
 ---
 
-# 📌 Funcionalidades
+# Funcionalidades
 
 O website possui as seguintes seções:
 
@@ -38,7 +38,7 @@ Seção com:
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -48,4 +48,16 @@ Seção com:
 
 ---
 
-# 📂 Estrutura do Projeto
+# Estrutura do Projeto
+
+Portfo-lio-Profissional/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── images/
+│ ├── minha-foto.jpg
+│ ├── projeto1.png
+│
+└── README.md
