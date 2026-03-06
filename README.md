@@ -89,36 +89,32 @@ O sistema adota uma arquitetura de **Página Única (Single Page Application - S
 - (Opcional) Extensão **Live Server** no VS Code para desenvolvimento.
 
 ### Como Executar Localmente
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/diogotorres13/Portfo-lio-Profissional.git](https://github.com/diogotorres13/Portfo-lio-Profissional.git)
 
-2. **Acesse a pasta:**
+1. **Clone o repositório**
 
-  bash
-  cd Portfo-lio-Profissional 
+      git clone https://github.com/diogotorres13/Portfo-lio-Profissional.git
 
-3. **Execute:**
+2. **Abra a pasta**
 
-  Basta abrir o arquivo index.html diretamente no seu navegador ou clicar com o botão direito e selecionar "Open with Live Server".
+3. **Abra o arquivo index.html no navegador**
 
 
 ---
 
 ### 📂 Estrutura de Pastas
 
-Portfo-lio-Profissional/
-│
-├── index.html          # Arquivo principal (Estrutura)
-├── style.css           # Estilização e Responsividade (Visual)
-├── script.js           # Lógica de interação (Comportamento)
-├── README.md           # Documentação do projeto
-│
-├── images/             # Recursos visuais
-│   ├── minha-foto.jpg  # Foto de perfil
-│   ├── projeto1.png    # Screenshot do projeto Assistente de Text-to-Cypher
-│   └── ...             # Demais imagens de projetos
-└── .gitignore          # Configuração de arquivos ignorados pelo Git
+Portfo-lio-Profissional/<br>
+│<br>
+├── index.html          # Arquivo principal (Estrutura)<br>
+├── style.css           # Estilização e Responsividade (Visual)<br>
+├── script.js           # Lógica de interação (Comportamento)<br>
+├── README.md           # Documentação do projeto<br>
+│<br>
+├── images/             # Recursos visuais<br>
+│   ├── minha-foto.jpg  # Foto de perfil<br>
+│   ├── projeto1.png    # Screenshot do projeto Assistente de Text-to-Cypher<br>
+│   └── ...             # Demais imagens de projetos<br>
+└── .gitignore          # Configuração de arquivos ignorados pelo Git<br>
 
 ## 🎥 Demonstração
 
