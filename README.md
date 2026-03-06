@@ -50,17 +50,17 @@ Seção com:
 
 # Estrutura do Projeto
 
-Portfo-lio-Profissional/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── images/
-│ ├── minha-foto.jpg
-│ ├── projeto1.png
-│
-└── README.md
+Portfo-lio-Profissional/<br>
+│<br>
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
+│<br>
+├── images/<br>
+│ ├── minha-foto.jpg<br>
+│ ├── projeto1.png<br>
+│<br>
+└── README.md<br>
 
 ---
 # Estrutura do Projeto
