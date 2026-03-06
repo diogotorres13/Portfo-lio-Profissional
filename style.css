@@ -217,4 +217,27 @@ width:200px;
 height:200px;
 }
 
+
+}
+
+
+/* Container para alinhar logo e título */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+
+.time-logo {
+    height: 45px; 
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
