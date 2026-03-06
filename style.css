@@ -241,3 +241,83 @@ height:200px;
         gap: 5px;
     }
 }
+
+/* Container da Timeline */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+/* A Linha Vertical Central */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #1f1f1f; /* Mesma cor do seu header */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 10px;
+}
+
+/* Itens da Timeline */
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%; /* Metade da tela */
+    box-sizing: border-box;
+}
+
+/* As Bolinhas (Nós) */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px; /* Alinhado à linha central */
+    background-color: white;
+    border: 4px solid #4da3ff;
+    top: 40px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Posicionamento Esquerda e Direita */
+.left { left: 0; }
+.right { left: 50%; }
+
+.right::after { left: -10px; } /* Ajuste da bolinha no item da direita */
+
+/* Ajuste do card de projeto dentro da timeline */
+.projeto {
+    margin-top: 0 !important; /* Remove o margin que você tinha antes */
+}
+
+.data {
+    font-weight: bold;
+    color: #4da3ff;
+    margin-bottom: 5px;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    /* Move a linha para a esquerda em telas pequenas */
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-item::after {
+        left: 21px;
+    }
+
+    .right { left: 0%; }
+}
